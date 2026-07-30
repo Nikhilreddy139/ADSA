@@ -14,3 +14,4 @@ def totalFruit(fruits: List[int]) -> int:
     return max_picked
 fruits = [1,2,1]
 print(totalFruit(fruits))
+print()
