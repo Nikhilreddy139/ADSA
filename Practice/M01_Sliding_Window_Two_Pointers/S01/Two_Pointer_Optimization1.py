@@ -1,4 +1,4 @@
-#Remove Duplicates from Sorted Array
+#26.Remove Duplicates from Sorted Array
 '''from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -14,7 +14,7 @@ k = sol.removeDuplicates(nums)
 print("k =", k)
 print("First k elements:", nums[:k])
 print("Entire array:", nums)'''
-
+#27.Problem: Remove Element
 from typing import List
 def removeElement(nums: List[int], val: int) -> int:
     i=0

@@ -1,3 +1,4 @@
+#209.Problem: Minimum Size Subarray Sum
 '''from typing import List
 def minSubArrayLen( target: int, nums: List[int]) -> int:
     left = 0
@@ -13,6 +14,7 @@ def minSubArrayLen( target: int, nums: List[int]) -> int:
 target = 7
 nums = [2,3,1,2,4,3]
 print(minSubArrayLen(target,nums))'''
+#713.Problem: Subarray Product Less Than K
 from typing import List
 def numSubarrayProductLessThanK(nums: List[int], k: int) -> int:
     if k<=1:

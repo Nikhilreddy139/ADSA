@@ -1,3 +1,4 @@
+#643.Problem: Maximum Average Subarray I
 from typing import List
 def findMaxAverage(nums: List[int], k: int) -> float:
     max_sum = float("-inf")
