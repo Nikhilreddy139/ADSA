@@ -1,3 +1,4 @@
+#1572.Problem: Matrix Diagonal Sum
 from typing import List
 def diagonalSum(mat: List[List[int]]) -> int:
     n = len(mat)
