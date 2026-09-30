@@ -1,0 +1,20 @@
+'''size = 5
+queue = [None] * size
+
+print(queue)'''
+class CircularQueue:
+    def __init__(self, size):
+        self.size = size
+        self.queue = [None] * size
+        self.front = -1
+        self.rear = -1
+    def enqueue(self, item):
+        if (self.rear + 1) % self.size == self.front:
+            print("Queue is full")
+            return
+        if self.front == -1:
+            self.front = 0
+        self.rear = (self.rear + 1) % self.size
+        self.queue[self.rear] = item
+        
+    
